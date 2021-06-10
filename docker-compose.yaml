@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  sysfoo:
+   image: mladenis/sysfoo:latest
+   ports:
+    - 9999:8080
+
+
